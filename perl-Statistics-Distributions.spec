@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Statistics
 %define	pnam	Distributions
-Summary:	Statistics::Distributions - calculating critical values and upper probabilities of common statistical distributions
-Summary(pl):	Statistics::Distributions - obliczanie warto¶ci krytycznych i górnych prawdopodobieñstw popularnych rozk³adów statystycznych
+Summary:	Critical values and upper probabilities of common statistical distributions
+Summary(pl):	Warto¶ci krytyczne i górne prawdopodobieñstwa popularnych rozk³adów statystycznych
 Name:		perl-Statistics-Distributions
 Version:	1.02
 Release:	1
@@ -18,24 +18,22 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 URL:		http://search.cpan.org/dist/Statistics-Distributions/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if %{with tests}
-%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This Perl module calculates percentage points (5 significant digits)
-of the u (standard normal) distribution, the Student's t distribution,
-the chi-square distribution and the F distribution. It can also
-calculate the upper probability (5 significant digits) of the u
-(standard normal), the chi-square, the t and the F distribution.
+Statistics::Distributions calculates percentage points (5 significant
+digits) of the u (standard normal) distribution, the Student's t
+distribution, the chi-square distribution and the F distribution. It
+can also calculate the upper probability (5 significant digits) of the
+u (standard normal), the chi-square, the t and the F distribution.
 
 These critical values are needed to perform statistical tests, like
 the u test, the t test, the F test and the chi-squared test, and to
 calculate confidence intervals.
 
 %description -l pl
-Ten modu³ Perla oblicza percentyle (z dok³adno¶ci± do 5 cyfr
+Statistics::Distributions oblicza percentyle (z dok³adno¶ci± do 5 cyfr
 znacz±cych) rozk³adów u (normalnego), t-Studenta, chi-kwadrat oraz F.
 Mo¿e tak¿e obliczaæ górne prawdopodobieñstwa (z dok³adno¶ci± do 5 cyfr
 znacz±cych) tych rozk³adów.

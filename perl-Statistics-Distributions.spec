@@ -6,7 +6,7 @@
 %define	pdir	Statistics
 %define	pnam	Distributions
 Summary:	Critical values and upper probabilities of common statistical distributions
-Summary(pl):	Warto∂ci krytyczne i gÛrne prawdopodobieÒstwa popularnych rozk≥adÛw statystycznych
+Summary(pl.UTF-8):   Warto≈õci krytyczne i g√≥rne prawdopodobie≈Ñstwa popularnych rozk≈Çad√≥w statystycznych
 Name:		perl-Statistics-Distributions
 Version:	1.02
 Release:	1
@@ -32,11 +32,11 @@ These critical values are needed to perform statistical tests, like
 the u test, the t test, the F test and the chi-squared test, and to
 calculate confidence intervals.
 
-%description -l pl
-Statistics::Distributions oblicza percentyle (z dok≥adno∂ci± do 5 cyfr
-znacz±cych) rozk≥adÛw u (normalnego), t-Studenta, chi-kwadrat oraz F.
-Moøe takøe obliczaÊ gÛrne prawdopodobieÒstwa (z dok≥adno∂ci± do 5 cyfr
-znacz±cych) tych rozk≥adÛw.
+%description -l pl.UTF-8
+Statistics::Distributions oblicza percentyle (z dok≈Çadno≈õciƒÖ do 5 cyfr
+znaczƒÖcych) rozk≈Çad√≥w u (normalnego), t-Studenta, chi-kwadrat oraz F.
+Mo≈ºe tak≈ºe obliczaƒá g√≥rne prawdopodobie≈Ñstwa (z dok≈Çadno≈õciƒÖ do 5 cyfr
+znaczƒÖcych) tych rozk≈Çad√≥w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

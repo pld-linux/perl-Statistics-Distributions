@@ -6,7 +6,7 @@
 %define	pdir	Statistics
 %define	pnam	Distributions
 Summary:	Critical values and upper probabilities of common statistical distributions
-Summary(pl.UTF-8):   Wartości krytyczne i górne prawdopodobieństwa popularnych rozkładów statystycznych
+Summary(pl.UTF-8):	Wartości krytyczne i górne prawdopodobieństwa popularnych rozkładów statystycznych
 Name:		perl-Statistics-Distributions
 Version:	1.02
 Release:	1

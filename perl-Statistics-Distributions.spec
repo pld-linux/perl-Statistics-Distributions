@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Statistics
 %define	pnam	Distributions
 Summary:	Critical values and upper probabilities of common statistical distributions
